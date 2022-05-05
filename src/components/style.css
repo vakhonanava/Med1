@@ -1,0 +1,45 @@
+
+/* Include padding and border in total box size*/
+/* * {
+    box-sizing: border-box;
+} */
+
+/* Create two equal columns that float next to each other */
+/* .column-2 {
+    float: center;  
+     width: 80%;
+    padding: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 600px;
+    margin: 50px;
+    margin-right: 30px;
+    margin-bottom: 450px;
+    background-color: #f0db536c;
+    line-height: 2; */
+
+/* } */
+
+
+/* Large profile image */
+/* .column-1 {
+    padding: 20em;
+    background: url('../Imgcon/todua.jpeg');
+    border-radius: 8px;
+    position: relative;
+    position: absolute;
+    top: 14px;
+    right: 1px;
+    opacity:0.2;
+    font-size:25px;
+    width:100%; */
+    
+/* } */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}

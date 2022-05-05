@@ -1,47 +1,37 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import partneslogo from '../photo/parnters logo.png'
+import upload from '../photo/Upload.png'
+import logo from '../photo/logo.png'
 
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Start your EPIC Journey</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              src={logo}
+              text='About Us'
               label='Adventure'
-              path='/services'
+              path='./products'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src={upload}
+              text='Upload your resume'
+              label='Service'
+              path='./sign-up'
+            />
+           <CardItem
+              src={partneslogo}
+              text='Partners'
+              label='Adventure'
+              path='./partners'
             />
           </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
-            />
-          </ul>
+
         </div>
       </div>
     </div>
